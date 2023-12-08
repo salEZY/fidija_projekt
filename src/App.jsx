@@ -7,7 +7,7 @@ import "./App.css";
 const Home = lazy(() => import("./components/Home"));
 const Schedule = lazy(() => import("./components/Schedule"));
 const Shows = lazy(() => import("./components/Shows"));
-const Header = lazy(() => import("./components/Header"));
+const Header = lazy(() => import("./components/Header/Header"));
 
 function App() {
   return (
